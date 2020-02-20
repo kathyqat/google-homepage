@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Google</title>
+    <style>
+        :root{
+            font-family: arial, sans-serif;
+            font-size: 12px;
+        }
+
+        main{
+            position: relative;
+            top: 75px;
+        }
+
+        .logo{
+            display: block;
+            margin: auto;
+        }
+
+        .center{
+            width: 1px;
+            position: relative;
+            left: 50%
+        }
+
+        .icon{
+            width: 15px;
+            height: 15px;
+            opacity: 0.5;
+            position: absolute;
+            right: 246px;
+            top: 13px;
+        }
+
+        .search {
+            display: block;
+            margin: auto;
+            margin-top: 25px;
+            padding: 10px 10px 10px 40px;
+            width: 500px; 
+            border-radius: 50px;
+            border: 1px solid lightgray;
+        }
+
+        .buttons, .french{
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+        }
+
+        button{
+            background: #f4f4f4;
+            border-color: white;
+            border-radius: 5px;
+            padding: 7px 15px 7px 15px;
+            border: none;
+        }
+
+        .lucky{
+            margin-left: 15px;
+        }
+
+        a{
+            text-decoration: none;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+    
+<body>
+    <main>
+        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google's logo">
+            
+        <form>
+            <div class="center">
+                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg" alt="Magnifying glass icon">
+            </div>
+
+            <input class="search" type="text">
+
+            <div class="buttons">
+                <button type="submit">Google Search</button>
+                <button class="lucky" type="submit">I'm Feeling Lucky</button>
+            </div>
+        </form>
+
+        <p class="french">
+            Google offered in: <a href="#">Français</a>
+        </p>  
+    </main>
+</body>
+</html>
