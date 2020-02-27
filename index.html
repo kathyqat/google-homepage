@@ -9,6 +9,40 @@
             font-size: 12px;
         }
 
+        header{
+            padding: 5px 20px 0px 20px;
+            display: grid;
+            grid-template-columns: repeat(2, min-content) auto repeat(3, min-content) 75px;
+            grid-column-gap: 15px;
+            justify-items: center;
+        }
+
+        #gmail{
+            grid-column-end: -4;
+        }
+
+        .apps-icon{
+            align-self: center;
+            display:grid;
+            grid-template-columns: repeat(3, auto);
+            grid-gap: 2px;
+        }
+
+        .square{
+            width: 4px;
+            height: 4px;
+            background-color: gray;
+        }
+
+        #sign-in{
+            background: #4484f3;
+            color: white;
+            font-weight: bolder;
+            border-radius: 2px;
+            padding: 5px 10px 5px 10px;
+            align-self: center;
+        }
+
         main{
             position: relative;
             top: 75px;
@@ -70,6 +104,26 @@
 </head>
     
 <body>
+    <header>
+        <p>About</p>
+        <p>Store</p>
+        <div></div>
+        <p id="gmail">Gmail</p>
+        <p id="images">Images</p>
+        <div class="apps-icon">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </div>
+        <button id="sign-in" type="submit">Sign in</button>
+      </header>
+
     <main>
         <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google's logo">
             
