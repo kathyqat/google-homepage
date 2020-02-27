@@ -4,7 +4,7 @@ This project is for building a visual copy of the Google.com homepage from scrat
 
 Codepen link: https://codepen.io/kathyqat/pen/ExjgNOM?editors=1100
 
-I was quite stubborn and wanted to solve the problem without looking at the navbar guide that TOP suggested. It did take me longer than necessary, but because this was my first real work, I wanted to make sure I had a solid grasp of the concepts. I didn't want to just follow along with the example like in Free Code Camp lessons. I'm not shy about Google-ing an issue, but it felt like an easy way out if I used the guide and not something I thought to Google myself. Maybe I'll go back in later and make the code responsive. Please don't dispel the illusion and try making the viewport smaller.
+I was quite stubborn and wanted to solve the problem without looking at the navbar guide that TOP suggested. It did take me longer than necessary, but because this was my first real work, I wanted to make sure that I had a solid grasp of the concepts. I didn't want to just follow along with the example like in Free Code Camp lessons. I'm not shy about Google-ing an issue, but it felt like an easy way out if I used the guide and not something I thought to Google myself. Maybe I'll go back in later and make the code responsive. Please don't dispel the illusion and try making the viewport smaller.
 
 Some methods that were tried but didn't work:
 1. Using background: url(); to put the magnifying glass icon in the search field. The image was able to be sized and positioned properly, but the opacity could not be changed and I didn't want to simply find and use a grey version. On second thought, this way is probably smarter and more robust.
