@@ -17,5 +17,4 @@ Weird thing that I don't know why it works like that: the Sign-in button was too
 
 Something useful that I learned but didn't end up using in the final code: 
 grid-column: span 1/last-line;
-
 This makes the element span 1 column and end wherever the last line is. Effectively ensuring that the element is always in the last column.
