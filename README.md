@@ -2,8 +2,6 @@
 
 This project is for building a visual copy of the Google.com homepage from scratch. It is a way to practice and demonstrate the HTML and CSS that I have self-taught through The Odin Project's (TOP) [Full Stack Development](http://www.theodinproject.com/courses/web-development-101/lessons/html-css) course.
 
-Codepen link: https://codepen.io/kathyqat/pen/ExjgNOM?editors=1100
-
 I was quite stubborn and wanted to solve the problem without looking at the navbar guide that TOP suggested. It did take me longer than necessary, but because this was my first real work, I wanted to make sure that I had a solid grasp of the concepts. I didn't want to just follow along with the example like in Free Code Camp lessons. I'm not shy about Google-ing an issue, but it felt like an easy way out if I used the guide and not something that I thought to Google myself. Maybe I'll go back in later and make the code responsive. Please don't dispel the illusion and try making the viewport smaller.
 
 Some methods that were tried but didn't work:
