@@ -10,6 +10,7 @@
         }
 
         body{
+            margin: 0;
             min-height: 100vh;
             display: grid;
             grid-template-areas:
@@ -21,11 +22,12 @@
 
         header{
             grid-area: header;
-            padding: 5px 20px 0px 20px;
+            padding: 15px 20px 0px 20px;
             display: grid;
             grid-template-columns: repeat(2, min-content) auto repeat(3, min-content) 75px;
             grid-column-gap: 15px;
             justify-items: center;
+            align-items: center;
         }
 
         #gmail{
@@ -51,13 +53,11 @@
             font-weight: bolder;
             border-radius: 2px;
             padding: 5px 10px 5px 10px;
-            align-self: center;
         }
 
         main{
             grid-area: main;
-            position: relative;
-            top: 75px;
+            align-self: center;
         }
 
         .logo{
@@ -108,14 +108,14 @@
             margin-left: 15px;
         }
 
-        a{
+        #french{
             text-decoration: none;
             margin-left: 5px;
         }
 
         footer{
             grid-area: footer;
-            padding: 5px 20px 10px 20px;
+            padding: 5px 20px 15px 20px;
             background-color: #f4f4f4;
             color: #797171;
         }
@@ -125,17 +125,18 @@
             grid-template-columns: repeat(2, min-content) 100px auto repeat(3, min-content);
             grid-column-gap: 20px;
             justify-items: center;
+            align-items: center;
         }
     </style>
 </head>
     
 <body>
     <header>
-        <p>About</p>
-        <p>Store</p>
+        <a>About</a>
+        <a>Store</a>
         <div></div>
-        <p id="gmail">Gmail</p>
-        <p id="images">Images</p>
+        <a id="gmail">Gmail</a>
+        <a id="images">Images</a>
         <div class="apps-icon">
           <div class="square"></div>
           <div class="square"></div>
@@ -174,13 +175,13 @@
     <footer>
         <p style="font-size: 13px;">Canada</p>
         <div class="bottom">
-          <p>Advertising</p>
-          <p>Business</p>
-          <p>How Search works</p>
-          <div></div>
-          <p>Privacy</p>
-          <p>Terms</p>
-          <p>Settings</p>
+            <a>Advertising</a>
+            <a>Business</a>
+            <a>How Search works</a>
+            <div></div>
+            <a>Privacy</a>
+            <a>Terms</a>
+            <a>Settings</a>
         </div>
     </footer>
 </body>

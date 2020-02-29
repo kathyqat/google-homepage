@@ -2,6 +2,8 @@
 
 This project is for building a visual copy of the Google.com homepage from scratch. It is a way to practice and demonstrate the HTML and CSS that I have self-taught through The Odin Project's (TOP) [Full Stack Development](http://www.theodinproject.com/courses/web-development-101/lessons/html-css) course.
 
+Codepen link: https://codepen.io/kathyqat/pen/ExjgNOM
+
 Overall, I'm quite pleased with my work :)
 
 I was quite stubborn and wanted to solve the problem without looking at the navbar guide that TOP suggested. It did take me longer than necessary, but because this was my first real work, I wanted to make sure that I had a solid grasp of the concepts. I didn't want to just follow along with the example like in Free Code Camp lessons. I'm not shy about Google-ing an issue, but it felt like an easy way out if I used the guide and not something that I thought to Google myself. Maybe I'll go back in later and make the code responsive. Please don't dispel the illusion and try making the viewport smaller.
@@ -14,6 +16,7 @@ Some methods that were tried but didn't work:
 Weird things that I don't know why it works like that: 
 1. The Sign-in button was too high. Trying to manually declare the height for the button and the header didn't work. I could finally change the height after declaring align-self: center. I don't know why just declaring the height didn't work or even why it had to autofit to the cell.
 2. The footer would ignore the display: grid when I tried to position: absolute the footer. I don't know why so I gave up on that and turned the whole body into a grid. It was then much easier to stick the footer at the bottom.
+3. If main's position was too far away from the top, it would move the footer away from the bottom. Why?? Best I can describe what happened, it's like part of main's box would stick out from the bottom of footer's box. Using vh or % instead of px would yield the same result. I made main align to center to not worry about it.
 
 Something useful that I learned but didn't end up using in the final code: 
 grid-column: span 1/last-line;
